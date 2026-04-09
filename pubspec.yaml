@@ -1,0 +1,26 @@
+name: finance_app
+description: A new Flutter banking project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # This adds the modern icons used in your project
+  cupertino_icons: ^1.0.6
+  # Added for the professional look in the Figma design
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  # If you have local images, uncomment the lines below:
+  # assets:
+  #   - assets/images/
